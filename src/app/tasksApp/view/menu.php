@@ -4,13 +4,16 @@
 			<a href="/about">About</a>
 		</li>
 		<li>
+			<a href="/contact">Contact</a>
+		</li>
+		<li>
 			Loops
 			<ul>
 				<li>
-					<a href="/tasks/loops-1">1</a>
+					<a href="/tasks/loops/1">1</a>
 				</li>
 				<li>
-					<a href="/tasks/loops-2">2</a>
+					<a href="/tasks/loops/2">2</a>
 				</li>
 			</ul>
 		</li>

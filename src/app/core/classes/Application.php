@@ -29,10 +29,10 @@ class Application
 		$controllerName = $controllerParameters['controller'];
 		$action = $controllerParameters['action'];
 		$parameters = !empty($controllerParameters['parameters']) ? $controllerParameters['parameters'] : [];
-		$request = array_merge($request, $parameters);
+		$request = array_merge($request, $parameters);		
 
         $controller = ControllerFactory::create($this, $controllerName, $action);
-        $controller->$action($request);
+        $controller->$action($request);        
 	}
 
 	public function getView()

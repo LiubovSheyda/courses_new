@@ -1,4 +1,9 @@
 <?php
+function taskFunction($data, $dbConnection) 
+{
+	return sayHelloWorld(15);
+}
+
 function sayHelloWorld($count = 1)
 {
 	$result = '';

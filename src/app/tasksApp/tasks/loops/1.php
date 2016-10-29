@@ -1,4 +1,14 @@
 <?php
+
+$description = 'Вывести 10 раз Hello World.';
+$inputData = '$count = 10';
+$result = sayHelloWorld(10);
+
+function taskFunction($data, $dbConnection) 
+{
+	return sayHelloWorld(10);
+}
+
 function sayHelloWorld($count = 1)
 {
 	$result = '';
@@ -8,6 +18,4 @@ function sayHelloWorld($count = 1)
 	return $result;
 }
 
-$description = 'Вывести 10 раз Hello World.';
-$inputData = '$count = 10';
-$result = sayHelloWorld(10);
+
